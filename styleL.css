@@ -1,0 +1,48 @@
+body{
+    background: linear-gradient(#05051B 100%,#19233C 100%);
+  }
+  
+  
+  .containerhome{
+    position: fixed; top: 3.7rem; left: 2%;
+    cursor: pointer;
+   }
+   
+.material-symbols-outlined{
+   color: white;
+   }
+
+.title{
+    color: white;
+    font-family: 'Font';
+    font-size: 40px;
+    position: absolute;  
+    left: 40%;  right:auto;
+  }
+
+  @font-face {
+    font-family: 'Font';
+    src: url(Monument_Valley_1.2-Regular.otf);
+  }
+
+.lendo{
+    position: relative; top: 20rem; right: -27%;
+    
+}
+
+.button{
+  position: relative; left: 88rem;
+  border: none;
+  background-color: #ffffff0c;
+  padding: 20px; width: 20rem;
+  border-radius: 5px;
+  color: #f5f5f5;
+  font-family: 'Font'; font-size: 16px;
+  cursor: pointer;
+  transition:  background-color 0.3s ease, color 0.5s ease, transform 0.5s ease;
+ }
+ 
+ .button:hover{
+  background-color: #ffffff48;
+  transform: scale(1.1);
+}

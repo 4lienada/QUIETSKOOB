@@ -1,0 +1,106 @@
+body{
+  background: linear-gradient(#05051B,#19233C);
+height: 100rem; width: 1280px;
+}
+
+@font-face {
+  font-family: 'Font';
+  src: url(Monument_Valley_1.2-Regular.otf);
+}
+
+.lupa{
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.containersearch{
+  padding: 0 1rem;
+  margin: 0 auto;
+  position: absolute; top: 5.6rem; left: 10%;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  border: 1px solid #ffffff;
+  background-color: #FFE0E6;
+  width: 500px;
+  margin: 20px auto;
+  border-radius: 50px;
+  padding: 5px 10px;
+}
+
+#searchInput{
+  padding: 8px;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  outline: none;
+}
+
+.search label{
+  height: 20px;
+}
+
+.containerhome{
+  position: relative; top: 3.5rem; left: 2%;
+ cursor: pointer;
+ }
+
+ .material-symbols-outlined{
+  color: white;
+  }
+
+  .button-ctlg1{
+    background-color: transparent;
+    color: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative; top: 10rem; left: 40%; right: auto;
+    transition: transform 0.5s ease;
+    padding: 4rem;
+    margin: auto;
+  }
+
+  .img-button{border-radius: 1rem;
+    height: 40rem; 
+    position: relative;left: -10rem;
+    }
+
+    .title{
+      font-family: 'Font';
+      position: absolute; left: 65rem; top: 16rem;
+      color: white;
+      font-size: 24px;
+    }
+
+
+  .container-p{
+    font-family: 'ariaal';
+    color: white;
+    width: 30rem;
+    position: relative; left: 60rem; top: -25rem;
+    font-size: 20px;
+
+  }
+
+  .button{
+    position: absolute; left: 35.8rem; top: 70rem;
+    border: none;
+    background-color: #ffffff0c;
+    padding: 20px; width: 30rem;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: 'Font'; font-size: 16px;
+    cursor: pointer;
+    transition:  background-color 0.3s ease, color 0.5s ease, transform 0.5s ease;
+   }
+  
+   .button:hover{
+    background-color: #ffffff48;
+    transform: scale(1.1);
+  }
+

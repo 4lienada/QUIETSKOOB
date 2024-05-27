@@ -1,0 +1,126 @@
+body{
+    background: linear-gradient(#05051B 100%,#19233C 100%);
+  }
+  
+.material-symbols-outlined{
+   color: white;
+   }
+
+   @font-face {
+    font-family: 'Font';
+    src: url(Swiper-Slider-3D-Coverflow/Monument_Valley_1.2-Regular.otf);
+  }
+
+  .lupa{
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+  
+  .containersearch{
+    padding: 0 1rem;
+    margin: 0 auto;
+    position: absolute; top: 5.6rem; left: 10%;
+  }
+  
+  .search{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ffffff;
+    background-color: #FFE0E6;
+    width: 500px;
+    margin: 20px auto;
+    border-radius: 50px;
+    padding: 5px 10px;
+  }
+  
+  #searchInput{
+    padding: 8px;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    outline: none;
+  }
+  
+  .search label{
+    height: 20px;
+  }
+  
+
+  .containerhome{
+    position: relative; top: 4.5rem; left: 2%;
+   cursor: pointer;
+   }
+   
+
+   .button-position{
+    position: absolute; width: 50%;
+    font-family: 'Font';
+    font-size: normal;
+    top: 60rem;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-bottom: auto;
+  }
+  .button-navegacao{
+   border: none;
+   background-color: #ffffff0c;
+   padding: 20px; width: 20rem;
+   border-radius: 5px;
+   color: #f5f5f5;
+   font-family: 'Font'; font-size: 16px;
+   cursor: pointer;
+   transition:  background-color 0.3s ease, color 0.5s ease, transform 0.5s ease;
+  }
+  
+  .botao1{position: absolute; left: -90%;}
+  
+  .botao2{position: absolute; left: 60%;}
+  
+  .botao3{position: absolute; left: -40%;}
+  
+  .botao4{position: absolute; left: 10%;}
+  
+  .button-navegacao:hover{
+    background-color: #ffffff48;
+    transform: scale(1.1);
+  }
+  
+  .button-ctlg1{
+    background-color: transparent;
+    color: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative; top: 20rem;
+    transition: transform 0.5s ease;
+    padding: 4rem;
+    margin: auto;
+  }
+  .button-ctlg1:hover{
+    transform: scale(1.4);
+  }
+  
+  .button-ctlg2{
+    background-color: rgba(255, 255, 255, 0.021);
+    border: none;
+    cursor: pointer;
+    position: relative; top: 46rem;
+    transition: transform 0.5s ease;
+    padding: 4rem;
+    margin: 20reme;
+    width: 15rem;
+    height: 20rem;
+    border-radius: 1rem;
+    right: -2.5%;
+  }
+  .button-ctlg2:hover{
+    transform: scale(1.4);
+  }
+  
+
+  .img-button{border-radius: 1rem;
+  height: 20rem;
+  }
+  
